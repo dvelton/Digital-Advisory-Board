@@ -1,23 +1,52 @@
-# ✨ Welcome to Your Spark Template!
-You've just launched your brand-new Spark Template Codespace — everything’s fired up and ready for you to explore, build, and create with Spark!
+# Digital Advisory Board
 
-This template is your blank canvas. It comes with a minimal setup to help you get started quickly with Spark development.
+This is a customizable chat application comprising a panel of experts. Users can assemble advisory panels from a collection of 60+ persona archetypes, each representing real-world roles across leadership, technology, design, business, law, finance, and more.
 
-🚀 What's Inside?
-- A clean, minimal Spark environment
-- Pre-configured for local development
-- Ready to scale with your ideas
-  
-🧠 What Can You Do?
+## Key Features
 
-Right now, this is just a starting point — the perfect place to begin building and testing your Spark applications.
+- **Expert Persona Library**: Choose from over 60 detailed persona archetypes, including:
+  - C-suite executives (CEO, CTO, CMO, CFO, CLO, etc.)
+  - Engineering & product leaders
+  - Legal & compliance advisors
+  - Financial analysts and strategists
+  - Operational experts
+  - UX designers and product managers
+  - Emerging tech specialists (AI, cybersecurity, data science, etc.)
 
-🧹 Just Exploring?
-No problem! If you were just checking things out and don’t need to keep this code:
+- **Custom Advisory Panels**: Create your own virtual boardroom by selecting advisors relevant to your challenge or domain.
 
-- Simply delete your Spark.
-- Everything will be cleaned up — no traces left behind.
+- **Perspective-Based Responses**: Submit a topic or question and receive tailored responses from each advisor based on their role, expertise, and strategic lens.
 
-📄 License For Spark Template Resources 
+- **Scenario Simulation**: Stress-test decisions by prompting advisors with hypothetical or real-world scenarios.
 
-The Spark Template files and resources from GitHub are licensed under the terms of the MIT license, Copyright GitHub, Inc.
+- **Decision Support**: Use the insights gathered to inform product strategy, risk assessments, stakeholder alignment, or high-level planning.
+
+## Example Use Cases
+
+- **Startup Founders**: Test your go-to-market strategy with a virtual CMO, COO, and Head of Product.
+- **Design Leaders**: Balance UX and business goals by consulting a design lead, marketing strategist, and CFO.
+- **Engineering Managers**: Evaluate a new architecture choice with a CTO, security lead, and head of infrastructure.
+
+## Persona Categories
+
+- **Executive Leadership**: CEO, COO, CMO, CTO, CFO, CLO, CHRO, CPO, etc.
+- **Technology & Engineering**: Principal Engineer, Staff Engineer, SRE Lead, Platform Architect, AI/ML Lead
+- **Product & Design**: Product Manager, Head of UX, Design Systems Lead
+- **Business & Operations**: Ops Manager, Revenue Strategist, Growth Lead
+- **Finance & Legal**: General Counsel, Compliance Officer, FP&A Analyst, M&A Advisor
+- **Specialized Experts**: AI Ethicist, DEI Officer, Cybersecurity Advisor, Customer Success Lead
+
+## How It Works
+
+1. **Select Personas**: Browse and choose relevant experts from the persona catalog.
+2. **Submit a Topic**: Enter your question, challenge, or idea.
+3. **Get Feedback**: Each selected advisor responds with perspective-rich insights based on their role and expertise.
+4. **Iterate**: Refine your advisory panel or follow up with additional questions to dive deeper.
+
+## Simulation
+
+Try it [here](https://gh.io/digital-advisory-board).
+
+## License
+
+MIT License. See `LICENSE.md` for details.
