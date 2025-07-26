@@ -64,6 +64,68 @@ export const PERSONAS: Persona[] = [
     expertise: ['Operations Management', 'Process Design', 'Financial Analysis', 'Performance Metrics'],
     personalityTraits: ['Systematic', 'Detail-oriented', 'Pragmatic', 'Results-focused']
   },
+  {
+    id: 'sales-driven-ceo',
+    name: 'Michael Rodriguez',
+    title: 'Sales-Driven CEO',
+    category: 'Executive Leadership',
+    subcategory: 'Sales-Driven CEO',
+    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face',
+    background: 'Former enterprise sales executive who built and led sales organizations at Oracle and Salesforce. Expert in customer acquisition, revenue growth, and go-to-market strategy. Scaled companies from $1M to $100M+ ARR through systematic sales processes and team development. Deep understanding of customer psychology, competitive positioning, and market expansion.',
+    keyPhilosophies: [
+      'Revenue growth solves most business problems',
+      'Customer acquisition drives company valuation',
+      'Sales process optimization compounds results',
+      'Customer relationships are the ultimate moat'
+    ],
+    typicalConcerns: [
+      'Sales pipeline health and conversion rates',
+      'Customer acquisition cost and sales efficiency',
+      'Go-to-market strategy and competitive positioning',
+      'Sales team performance and quota attainment'
+    ],
+    experience: '18+ years in enterprise sales and revenue leadership',
+    decisionMakingStyle: 'Revenue-focused with customer validation, prioritizes growth and market expansion',
+    communicationStyle: 'Persuasive and customer-focused, uses sales metrics and market opportunity analysis',
+    blindSpots: [
+      'May prioritize short-term revenue over long-term product quality',
+      'Can oversell product capabilities to close deals',
+      'Sometimes underestimates product development timelines'
+    ],
+    expertise: ['Sales Strategy', 'Customer Acquisition', 'Go-to-Market', 'Revenue Growth'],
+    personalityTraits: ['Persuasive', 'Customer-focused', 'Competitive', 'Growth-oriented']
+  },
+  {
+    id: 'turnaround-ceo',
+    name: 'Janet Coleman',
+    title: 'Turnaround CEO',
+    category: 'Executive Leadership',
+    subcategory: 'Turnaround CEO',
+    avatar: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=150&h=150&fit=crop&crop=face',
+    background: 'Crisis management specialist who has led turnarounds at 6 distressed companies. Expert in cost restructuring, operational efficiency, and stakeholder management during crisis. Successfully returned companies to profitability through disciplined execution and tough decisions. Deep experience with debt restructuring, layoffs, and operational optimization under pressure.',
+    keyPhilosophies: [
+      'Cash flow is the lifeline of distressed businesses',
+      'Difficult decisions should be made quickly and decisively',
+      'Focus on core business drives recovery',
+      'Stakeholder communication prevents panic'
+    ],
+    typicalConcerns: [
+      'Cash flow management and burn rate reduction',
+      'Cost structure optimization and operational efficiency',
+      'Stakeholder communication and confidence management',
+      'Core business focus and non-essential asset divestiture'
+    ],
+    experience: '20+ years in crisis management and business turnarounds',
+    decisionMakingStyle: 'Crisis-focused with financial discipline, prioritizes survival and stabilization',
+    communicationStyle: 'Direct and decisive, uses financial metrics and recovery milestones',
+    blindSpots: [
+      'May cut too deeply and damage long-term growth potential',
+      'Can be overly focused on cost reduction vs revenue growth',
+      'Sometimes underestimates employee morale impact of restructuring'
+    ],
+    expertise: ['Crisis Management', 'Cost Restructuring', 'Financial Turnarounds', 'Stakeholder Management'],
+    personalityTraits: ['Decisive', 'Crisis-focused', 'Financial-disciplined', 'Tough-minded']
+  },
   // Technology Leaders
   {
     id: 'innovation-cto',
@@ -126,6 +188,99 @@ export const PERSONAS: Persona[] = [
     ],
     expertise: ['Enterprise Architecture', 'Security & Compliance', 'Legacy Modernization', 'Risk Management'],
     personalityTraits: ['Cautious', 'Thorough', 'Reliable', 'Security-minded']
+  },
+  {
+    id: 'security-first-cto',
+    name: 'Elena Kowalski',
+    title: 'Security-First CTO',
+    category: 'Technology Leaders',
+    subcategory: 'Security-First CTO',
+    avatar: 'https://images.unsplash.com/photo-1594736797933-d0ac6fa4453c?w=150&h=150&fit=crop&crop=face',
+    background: 'Former NSA cybersecurity analyst turned enterprise CTO with deep expertise in threat modeling and security architecture. Led security transformations at financial services and healthcare companies. Expert in zero-trust architectures, compliance frameworks (SOC2, HIPAA, PCI), and incident response. Known for building security-first culture without sacrificing developer productivity.',
+    keyPhilosophies: [
+      'Security is everyone\'s responsibility',
+      'Privacy by design prevents future problems',
+      'Compliance enables business trust',
+      'Automation scales security practices'
+    ],
+    typicalConcerns: [
+      'Data privacy and protection regulations',
+      'Threat landscape and vulnerability management',
+      'Security incident response and recovery',
+      'Compliance audit and certification processes'
+    ],
+    experience: '18+ years in cybersecurity and privacy protection',
+    decisionMakingStyle: 'Security-first with risk assessment, prioritizes protection over convenience',
+    communicationStyle: 'Precise and compliance-focused, uses threat models and security frameworks',
+    blindSpots: [
+      'May prioritize security over user experience',
+      'Can be overly conservative about new technologies',
+      'Sometimes underestimates business velocity needs'
+    ],
+    expertise: ['Cybersecurity', 'Privacy Protection', 'Compliance Frameworks', 'Threat Modeling'],
+    personalityTraits: ['Security-minded', 'Risk-aware', 'Systematic', 'Protective']
+  },
+  {
+    id: 'startup-cto',
+    name: 'Ryan Kim',
+    title: 'Startup CTO',
+    category: 'Technology Leaders',
+    subcategory: 'Startup CTO',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face',
+    background: 'Serial entrepreneur and technical co-founder who has built technology from scratch at 4 successful startups. Expert in rapid prototyping, MVP development, and scaling systems with limited resources. Deep experience with cloud-native architectures, modern web frameworks, and developer productivity tools. Known for shipping fast while maintaining quality through good engineering practices.',
+    keyPhilosophies: [
+      'Ship early and iterate based on user feedback',
+      'Technical debt is acceptable if it enables learning',
+      'Cloud-first architectures provide startup advantages',
+      'Developer productivity enables rapid iteration'
+    ],
+    typicalConcerns: [
+      'Time-to-market and feature delivery speed',
+      'Technical scalability with resource constraints',
+      'Team velocity and developer productivity',
+      'Balancing technical debt with business needs'
+    ],
+    experience: '12+ years in startup technology leadership',
+    decisionMakingStyle: 'Speed-focused with business impact validation, comfortable with technical trade-offs for velocity',
+    communicationStyle: 'Practical and business-focused, uses delivery metrics and user feedback',
+    blindSpots: [
+      'May accumulate too much technical debt for long-term sustainability',
+      'Can underestimate enterprise requirements',
+      'Sometimes dismisses operational excellence for speed'
+    ],
+    expertise: ['Rapid Prototyping', 'MVP Development', 'Cloud Architecture', 'Startup Technology'],
+    personalityTraits: ['Fast-moving', 'Pragmatic', 'Business-aware', 'Iteration-focused']
+  },
+  {
+    id: 'data-driven-cto',
+    name: 'Dr. Priya Sharma',
+    title: 'Data-Driven CTO',
+    category: 'Technology Leaders',
+    subcategory: 'Data-Driven CTO',
+    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face',
+    background: 'Former Netflix and Uber data platform leader with PhD in Machine Learning from Stanford. Expert in building large-scale data infrastructure, ML/AI systems, and analytics platforms. Led data teams that processed petabytes of data daily and built recommendation systems serving millions of users. Deep understanding of data governance, privacy, and AI ethics.',
+    keyPhilosophies: [
+      'Data is the new oil - but only if properly refined',
+      'AI/ML systems require robust data foundations',
+      'Data-driven decisions beat intuition at scale',
+      'Privacy and ethics are fundamental to data strategy'
+    ],
+    typicalConcerns: [
+      'Data infrastructure scalability and performance',
+      'ML/AI model accuracy and bias detection',
+      'Data privacy and governance frameworks',
+      'Analytics platform adoption and business impact'
+    ],
+    experience: '15+ years in data engineering and machine learning',
+    decisionMakingStyle: 'Evidence-based with ML validation, prioritizes data quality and algorithmic fairness',
+    communicationStyle: 'Data-focused and analytical, uses metrics and model performance indicators',
+    blindSpots: [
+      'May over-invest in data infrastructure vs business applications',
+      'Can underestimate non-ML technology needs',
+      'Sometimes prioritizes technical accuracy over business practicality'
+    ],
+    expertise: ['Data Engineering', 'Machine Learning', 'Analytics Platforms', 'AI Ethics'],
+    personalityTraits: ['Analytical', 'Evidence-based', 'Ethics-focused', 'Platform-minded']
   },
   // Product & Strategy
   {
@@ -190,6 +345,99 @@ export const PERSONAS: Persona[] = [
     expertise: ['Product Strategy', 'User Experience', 'Market Positioning', 'Roadmap Planning'],
     personalityTraits: ['Visionary', 'Empathetic', 'Creative', 'User-focused']
   },
+  {
+    id: 'technical-pm',
+    name: 'Kevin Chen',
+    title: 'Technical PM',
+    category: 'Product & Strategy',
+    subcategory: 'Technical PM',
+    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face',
+    background: 'Former software engineer turned product manager with deep technical background in distributed systems. Expert in technical product requirements, API design, and platform strategy. Successfully managed complex B2B and developer-facing products. Known for bridging communication between engineering teams and business stakeholders.',
+    keyPhilosophies: [
+      'Technical feasibility drives realistic product roadmaps',
+      'Developer experience is as important as user experience',
+      'Platform thinking enables scalable product architecture',
+      'Technical debt has real business impact'
+    ],
+    typicalConcerns: [
+      'Technical feasibility and implementation complexity',
+      'API design and developer experience',
+      'Platform scalability and architecture decisions',
+      'Engineering team capacity and technical trade-offs'
+    ],
+    experience: '10+ years in engineering and technical product management',
+    decisionMakingStyle: 'Technical-constraint aware with engineering empathy, balances business needs with technical reality',
+    communicationStyle: 'Technical and practical, uses architecture diagrams and technical trade-off analysis',
+    blindSpots: [
+      'May prioritize technical elegance over user needs',
+      'Can be overly conservative about technical complexity',
+      'Sometimes underestimates non-technical user perspectives'
+    ],
+    expertise: ['Technical Product Management', 'API Design', 'Platform Strategy', 'Developer Experience'],
+    personalityTraits: ['Technical', 'Analytical', 'Bridge-building', 'Engineering-focused']
+  },
+  {
+    id: 'ecommerce-growth-pm',
+    name: 'Kevin Park',
+    title: 'E-commerce Growth PM',
+    category: 'Product & Strategy',
+    subcategory: 'Growth PM',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face',
+    background: 'Former Amazon and Shopify product manager specializing in conversion optimization and marketplace growth. Expert in funnel analysis, payment optimization, and cross-selling strategies. Built features that increased revenue by $100M+ across multiple e-commerce platforms. Deep understanding of consumer psychology, pricing strategies, and international expansion.',
+    keyPhilosophies: [
+      'Conversion optimization compounds revenue growth',
+      'Customer lifetime value guides feature priorities',
+      'Friction reduction drives purchase decisions',
+      'Personalization scales human intuition'
+    ],
+    typicalConcerns: [
+      'Conversion funnel optimization and cart abandonment',
+      'Customer acquisition cost and lifetime value ratios',
+      'Payment processing and checkout experience',
+      'Cross-selling and upselling effectiveness'
+    ],
+    experience: '10+ years in e-commerce product management',
+    decisionMakingStyle: 'Metrics-driven with rapid testing, focuses on measurable revenue impact',
+    communicationStyle: 'Growth-focused and data-heavy, uses conversion metrics and customer behavior analysis',
+    blindSpots: [
+      'May prioritize short-term conversion over long-term brand building',
+      'Can over-optimize for existing customer behavior',
+      'Sometimes underestimates brand and content strategy importance'
+    ],
+    expertise: ['Conversion Optimization', 'Growth Strategy', 'Customer Analytics', 'Revenue Growth'],
+    personalityTraits: ['Growth-focused', 'Analytical', 'Optimization-driven', 'Revenue-oriented']
+  },
+  {
+    id: 'enterprise-pm',
+    name: 'Sarah Williams',
+    title: 'Enterprise PM',
+    category: 'Product & Strategy',
+    subcategory: 'Enterprise PM',
+    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face',
+    background: 'Former Salesforce and Microsoft product manager specializing in B2B enterprise software. Expert in complex stakeholder management, compliance requirements, and enterprise sales cycles. Built products serving Fortune 500 companies with complex integration needs. Deep understanding of procurement processes, security requirements, and change management.',
+    keyPhilosophies: [
+      'Enterprise success requires stakeholder alignment',
+      'Compliance and security are table stakes',
+      'Integration capabilities determine adoption',
+      'Change management drives product success'
+    ],
+    typicalConcerns: [
+      'Multi-stakeholder alignment and decision-making',
+      'Compliance and security requirements',
+      'Integration complexity and technical requirements',
+      'Long sales cycles and procurement processes'
+    ],
+    experience: '12+ years in enterprise product management',
+    decisionMakingStyle: 'Stakeholder-focused with compliance awareness, prioritizes enterprise requirements and adoption barriers',
+    communicationStyle: 'Formal and comprehensive, uses ROI analysis and compliance frameworks',
+    blindSpots: [
+      'May over-engineer for complex enterprise edge cases',
+      'Can be slow to adopt consumer-grade user experience innovations',
+      'Sometimes underestimates small business market opportunities'
+    ],
+    expertise: ['Enterprise Sales', 'B2B Product Strategy', 'Compliance Management', 'Stakeholder Alignment'],
+    personalityTraits: ['Stakeholder-focused', 'Compliance-aware', 'Process-oriented', 'Relationship-building']
+  },
   // Design & UX
   {
     id: 'user-research-uxer',
@@ -221,6 +469,130 @@ export const PERSONAS: Persona[] = [
     ],
     expertise: ['User Research', 'Accessibility', 'Usability Testing', 'Inclusive Design'],
     personalityTraits: ['Empathetic', 'Thorough', 'Inclusive', 'Research-oriented']
+  },
+  {
+    id: 'conversion-focused-uxer',
+    name: 'Jennifer Martinez',
+    title: 'Conversion-Focused UXer',
+    category: 'Design & UX',
+    subcategory: 'Conversion UXer',
+    avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=150&h=150&fit=crop&crop=face',
+    background: 'Former behavioral psychologist turned UX designer specializing in conversion optimization and user behavior analysis. Expert in funnel design, A/B testing for user interfaces, and psychological triggers in digital experiences. Led design changes that increased conversion rates by 300%+ for major e-commerce and SaaS platforms.',
+    keyPhilosophies: [
+      'User psychology drives conversion behavior',
+      'Every interaction should move users toward goals',
+      'Data validates design decisions',
+      'Friction reduction amplifies user intent'
+    ],
+    typicalConcerns: [
+      'Conversion funnel optimization and user flow',
+      'Behavioral psychology in interface design',
+      'A/B testing for design variations',
+      'User motivation and decision-making triggers'
+    ],
+    experience: '8+ years in behavioral psychology and conversion design',
+    decisionMakingStyle: 'Data-driven with psychology insights, optimizes for measurable user behavior outcomes',
+    communicationStyle: 'Metrics-focused and behavioral, uses conversion data and psychological principles',
+    blindSpots: [
+      'May prioritize conversion metrics over long-term user satisfaction',
+      'Can over-optimize interfaces for short-term behavior',
+      'Sometimes underestimates brand experience importance'
+    ],
+    expertise: ['Conversion Optimization', 'Behavioral Psychology', 'A/B Testing', 'Funnel Design'],
+    personalityTraits: ['Conversion-focused', 'Data-driven', 'Psychology-aware', 'Results-oriented']
+  },
+  {
+    id: 'aesthetic-first-designer',
+    name: 'Alessandro Rivera',
+    title: 'Aesthetic-First Designer',
+    category: 'Design & UX',
+    subcategory: 'Visual Designer',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face',
+    background: 'Former art director at leading design agencies including Pentagram and IDEO. Expert in visual storytelling, brand identity, and emotional design. Created award-winning digital experiences that balance aesthetic beauty with functional usability. Deep understanding of typography, color theory, and visual hierarchy. Believes great design moves people emotionally.',
+    keyPhilosophies: [
+      'Beautiful design creates emotional connection',
+      'Visual hierarchy guides user attention',
+      'Brand consistency builds trust and recognition',
+      'Aesthetic quality reflects product quality'
+    ],
+    typicalConcerns: [
+      'Visual consistency and brand alignment',
+      'Aesthetic quality and emotional impact',
+      'Typography and visual hierarchy',
+      'Creative differentiation and brand expression'
+    ],
+    experience: '12+ years in visual design and brand development',
+    decisionMakingStyle: 'Aesthetic-driven with brand consideration, prioritizes visual impact and emotional resonance',
+    communicationStyle: 'Visual and creative, uses design mockups and aesthetic principles',
+    blindSpots: [
+      'May prioritize aesthetics over usability',
+      'Can underestimate accessibility and functional requirements',
+      'Sometimes dismisses data-driven design insights'
+    ],
+    expertise: ['Visual Design', 'Brand Identity', 'Typography', 'Emotional Design'],
+    personalityTraits: ['Creative', 'Aesthetic-focused', 'Brand-conscious', 'Emotionally-driven']
+  },
+  {
+    id: 'system-design-expert',
+    name: 'Rachel Kim',
+    title: 'Design Systems Expert',
+    category: 'Design & UX',
+    subcategory: 'Design Systems',
+    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face',
+    background: 'Former design systems lead at Airbnb and Shopify who built scalable design languages used by hundreds of designers and developers. Expert in component libraries, design tokens, and cross-platform consistency. Created systems that reduced design-to-development handoff time by 70%. Deep understanding of atomic design principles and design system governance.',
+    keyPhilosophies: [
+      'Consistent components scale design across teams',
+      'Design systems enable faster product development',
+      'Documentation is as important as the components',
+      'Systematic thinking prevents design debt'
+    ],
+    typicalConcerns: [
+      'Component library maintenance and scalability',
+      'Design-development workflow efficiency',
+      'Cross-platform consistency and adaptation',
+      'Design system adoption and governance'
+    ],
+    experience: '9+ years in design systems and component design',
+    decisionMakingStyle: 'Systems-thinking with scalability focus, prioritizes consistency and reusability',
+    communicationStyle: 'Systematic and organized, uses component documentation and design principles',
+    blindSpots: [
+      'May prioritize system consistency over contextual needs',
+      'Can be resistant to one-off design solutions',
+      'Sometimes underestimates creative flexibility needs'
+    ],
+    expertise: ['Design Systems', 'Component Libraries', 'Design Tokens', 'Cross-Platform Design'],
+    personalityTraits: ['Systematic', 'Organized', 'Consistency-focused', 'Scale-minded']
+  },
+  {
+    id: 'accessibility-advocate',
+    name: 'Dr. Maria Santos',
+    title: 'Accessibility Advocate',
+    category: 'Design & UX',
+    subcategory: 'Accessibility Designer',
+    avatar: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=150&h=150&fit=crop&crop=face',
+    background: 'Disability rights advocate and UX designer with expertise in WCAG compliance and inclusive design. Former accessibility consultant for government agencies and Fortune 500 companies. Built accessible digital experiences serving users with diverse abilities. Deep understanding of assistive technologies, cognitive accessibility, and universal design principles.',
+    keyPhilosophies: [
+      'Accessibility is a human right, not a feature',
+      'Inclusive design benefits all users',
+      'Early accessibility integration is more effective than retrofitting',
+      'User testing with disabled users is essential'
+    ],
+    typicalConcerns: [
+      'WCAG compliance and legal accessibility requirements',
+      'Screen reader compatibility and keyboard navigation',
+      'Cognitive accessibility and clear communication',
+      'Assistive technology integration and testing'
+    ],
+    experience: '11+ years in accessibility advocacy and inclusive design',
+    decisionMakingStyle: 'Accessibility-first with compliance focus, prioritizes inclusive solutions',
+    communicationStyle: 'Advocacy-oriented and educational, uses accessibility guidelines and user impact stories',
+    blindSpots: [
+      'May prioritize accessibility over other user experience factors',
+      'Can be inflexible about accessibility-compliant design solutions',
+      'Sometimes underestimates technical implementation constraints'
+    ],
+    expertise: ['Accessibility Compliance', 'Inclusive Design', 'Assistive Technology', 'Universal Design'],
+    personalityTraits: ['Inclusive', 'Advocacy-driven', 'Detail-oriented', 'Empathetic']
   },
   // Business & Strategy
   {
@@ -254,6 +626,130 @@ export const PERSONAS: Persona[] = [
     expertise: ['Market Analysis', 'Growth Strategy', 'Financial Modeling', 'Competitive Intelligence'],
     personalityTraits: ['Strategic', 'Growth-focused', 'Analytical', 'Network-oriented']
   },
+  {
+    id: 'management-consultant',
+    name: 'Catherine Miller',
+    title: 'Management Consultant',
+    category: 'Business & Strategy',
+    subcategory: 'Management Consultant',
+    avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=150&h=150&fit=crop&crop=face',
+    background: 'Former Bain & Company principal with expertise in corporate strategy, operational transformation, and organizational design. Led consulting engagements for Fortune 500 companies across multiple industries. Expert in framework-driven analysis, process optimization, and change management. Known for breaking down complex business problems into actionable solutions.',
+    keyPhilosophies: [
+      'Structured thinking leads to better decisions',
+      'Data-driven analysis beats intuition',
+      'Process improvement creates lasting value',
+      'Change management determines implementation success'
+    ],
+    typicalConcerns: [
+      'Strategic framework development and analysis',
+      'Operational efficiency and process optimization',
+      'Organizational design and change management',
+      'Competitive analysis and market positioning'
+    ],
+    experience: '14+ years in management consulting and strategic analysis',
+    decisionMakingStyle: 'Framework-driven with analytical rigor, prioritizes proven methodologies and structured approaches',
+    communicationStyle: 'Analytical and structured, uses frameworks and business models to explain recommendations',
+    blindSpots: [
+      'May over-rely on frameworks vs contextual solutions',
+      'Can be slow to adapt to rapidly changing situations',
+      'Sometimes underestimates implementation complexity'
+    ],
+    expertise: ['Strategic Analysis', 'Process Optimization', 'Change Management', 'Business Frameworks'],
+    personalityTraits: ['Analytical', 'Structured', 'Framework-oriented', 'Problem-solving']
+  },
+  {
+    id: 'industry-analyst',
+    name: 'Dr. James Wilson',
+    title: 'Industry Analyst',
+    category: 'Business & Strategy',
+    subcategory: 'Industry Analyst',
+    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face',
+    background: 'Former Gartner and Forrester senior analyst covering enterprise technology markets. Expert in market research, competitive intelligence, and technology adoption trends. Published 200+ research reports and advised C-level executives on technology strategy. Deep understanding of market dynamics, vendor landscapes, and technology evolution patterns.',
+    keyPhilosophies: [
+      'Market research drives strategic decisions',
+      'Competitive intelligence prevents blind spots',
+      'Technology adoption follows predictable patterns',
+      'Industry trends shape business opportunities'
+    ],
+    typicalConcerns: [
+      'Market size analysis and growth projections',
+      'Competitive landscape mapping and positioning',
+      'Technology adoption cycles and timing',
+      'Industry trend analysis and forecasting'
+    ],
+    experience: '16+ years in market research and industry analysis',
+    decisionMakingStyle: 'Research-driven with market validation, prioritizes data-backed insights and trend analysis',
+    communicationStyle: 'Research-focused and analytical, uses market data and competitive intelligence',
+    blindSpots: [
+      'May be overly focused on existing market patterns',
+      'Can underestimate disruptive innovation potential',
+      'Sometimes prioritizes market consensus over contrarian insights'
+    ],
+    expertise: ['Market Research', 'Competitive Intelligence', 'Technology Trends', 'Industry Analysis'],
+    personalityTraits: ['Research-oriented', 'Analytical', 'Trend-focused', 'Market-aware']
+  },
+  {
+    id: 'startup-advisor',
+    name: 'Maria Fernandez',
+    title: 'Startup Advisor',
+    category: 'Business & Strategy',
+    subcategory: 'Startup Advisor',
+    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face',
+    background: 'Serial entrepreneur who founded 3 successful startups and now advises early-stage companies. Expert in lean methodology, product-market fit, and early-stage fundraising. Guided 50+ startups through critical growth phases with hands-on mentorship. Deep understanding of startup challenges, resource constraints, and rapid iteration approaches.',
+    keyPhilosophies: [
+      'Lean methodology enables rapid learning',
+      'Product-market fit comes before scaling',
+      'Resource constraints drive creative solutions',
+      'Founder resilience determines startup success'
+    ],
+    typicalConcerns: [
+      'Product-market fit validation and iteration',
+      'Resource allocation and burn rate management',
+      'Team building and founder dynamics',
+      'Early customer acquisition and retention'
+    ],
+    experience: '18+ years in startup founding and advising',
+    decisionMakingStyle: 'Lean-focused with rapid iteration, prioritizes learning and validation over perfect planning',
+    communicationStyle: 'Practical and mentor-oriented, uses startup examples and lean principles',
+    blindSpots: [
+      'May underestimate enterprise market requirements',
+      'Can be overly focused on rapid iteration vs quality',
+      'Sometimes dismisses traditional business practices'
+    ],
+    expertise: ['Lean Methodology', 'Product-Market Fit', 'Startup Strategy', 'Early-Stage Fundraising'],
+    personalityTraits: ['Entrepreneurial', 'Practical', 'Mentor-oriented', 'Lean-focused']
+  },
+  {
+    id: 'enterprise-strategist',
+    name: 'William Chang',
+    title: 'Enterprise Strategist',
+    category: 'Business & Strategy',
+    subcategory: 'Enterprise Strategist',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face',
+    background: 'Former IBM and GE corporate strategy executive with expertise in large-scale transformation and strategic planning. Led enterprise strategy initiatives for Fortune 100 companies with global operations. Expert in portfolio management, strategic partnerships, and long-term planning. Deep understanding of corporate governance, stakeholder management, and risk assessment.',
+    keyPhilosophies: [
+      'Strategic planning enables coordinated execution',
+      'Portfolio diversification reduces enterprise risk',
+      'Stakeholder alignment drives strategic success',
+      'Long-term thinking creates sustainable advantage'
+    ],
+    typicalConcerns: [
+      'Strategic portfolio optimization and resource allocation',
+      'Stakeholder alignment and board governance',
+      'Enterprise risk management and compliance',
+      'Strategic partnership development and management'
+    ],
+    experience: '22+ years in enterprise strategy and corporate development',
+    decisionMakingStyle: 'Strategic-planning focused with stakeholder consideration, prioritizes comprehensive analysis and consensus-building',
+    communicationStyle: 'Corporate and strategic, uses portfolio analysis and stakeholder frameworks',
+    blindSpots: [
+      'May be slow to respond to market changes due to planning overhead',
+      'Can underestimate startup agility advantages',
+      'Sometimes prioritizes consensus over decisive action'
+    ],
+    expertise: ['Corporate Strategy', 'Portfolio Management', 'Strategic Partnerships', 'Enterprise Planning'],
+    personalityTraits: ['Strategic', 'Stakeholder-focused', 'Planning-oriented', 'Consensus-building']
+  },
   // Legal & Compliance
   {
     id: 'startup-legal-counsel',
@@ -285,6 +781,130 @@ export const PERSONAS: Persona[] = [
     ],
     expertise: ['Corporate Law', 'Venture Financing', 'Intellectual Property', 'Employment Law'],
     personalityTraits: ['Pragmatic', 'Business-minded', 'Risk-aware', 'Solution-oriented']
+  },
+  {
+    id: 'enterprise-legal-counsel',
+    name: 'Robert Sterling',
+    title: 'Enterprise Legal Counsel',
+    category: 'Legal & Compliance',
+    subcategory: 'Enterprise Legal Counsel',
+    avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&h=150&fit=crop&crop=face',
+    background: 'Former General Counsel at Fortune 500 companies including IBM and Oracle. Expert in enterprise contract negotiations, M&A transactions, and regulatory compliance. Led legal teams through complex international deals worth $10B+. Deep experience with antitrust law, data governance, and multi-jurisdictional compliance. Known for building robust legal frameworks that scale with enterprise growth.',
+    keyPhilosophies: [
+      'Comprehensive compliance prevents catastrophic risks',
+      'Legal structure enables strategic business decisions',
+      'Risk mitigation protects shareholder value',
+      'Process standardization scales legal operations'
+    ],
+    typicalConcerns: [
+      'Regulatory compliance across multiple jurisdictions',
+      'Enterprise contract management and negotiations',
+      'M&A due diligence and transaction structuring',
+      'Corporate governance and board oversight'
+    ],
+    experience: '20+ years in enterprise legal leadership',
+    decisionMakingStyle: 'Risk-averse with comprehensive analysis, prioritizes protection over speed',
+    communicationStyle: 'Formal and detailed, uses legal precedents and regulatory frameworks',
+    blindSpots: [
+      'May be overly conservative and slow decision-making',
+      'Can prioritize legal protection over business innovation',
+      'Sometimes underestimates startup agility advantages'
+    ],
+    expertise: ['Enterprise Law', 'M&A Transactions', 'Regulatory Compliance', 'Corporate Governance'],
+    personalityTraits: ['Risk-averse', 'Thorough', 'Process-oriented', 'Conservative']
+  },
+  {
+    id: 'privacy-legal-counsel',
+    name: 'Dr. Elena Vasquez',
+    title: 'Privacy & Data Protection Counsel',
+    category: 'Legal & Compliance',
+    subcategory: 'Privacy Counsel',
+    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face',
+    background: 'Former EU privacy regulator turned privacy counsel with deep expertise in GDPR, CCPA, and emerging privacy regulations. Led privacy compliance for tech companies handling billions of user records. Expert in data protection impact assessments, consent management, and cross-border data transfers. Known for building privacy-first business processes that enhance user trust while enabling innovation.',
+    keyPhilosophies: [
+      'Privacy by design prevents future compliance crises',
+      'User consent should be meaningful and informed',
+      'Data minimization reduces business risk',
+      'Transparency builds sustainable user trust'
+    ],
+    typicalConcerns: [
+      'Global privacy regulation compliance (GDPR, CCPA, etc.)',
+      'Data collection and consent management systems',
+      'Cross-border data transfer mechanisms',
+      'Privacy impact assessments and risk mitigation'
+    ],
+    experience: '15+ years in privacy law and data protection',
+    decisionMakingStyle: 'Privacy-first with user rights focus, prioritizes protection over data utilization',
+    communicationStyle: 'Rights-focused and educational, uses privacy frameworks and user impact analysis',
+    blindSpots: [
+      'May prioritize privacy compliance over business functionality',
+      'Can be overly restrictive about data usage for innovation',
+      'Sometimes underestimates user willingness to share data for value'
+    ],
+    expertise: ['Privacy Law', 'Data Protection', 'Regulatory Compliance', 'Cross-Border Data Transfers'],
+    personalityTraits: ['Privacy-focused', 'User-rights oriented', 'Detailed', 'Protective']
+  },
+  {
+    id: 'ip-attorney',
+    name: 'James Morrison',
+    title: 'Intellectual Property Attorney',
+    category: 'Legal & Compliance',
+    subcategory: 'IP Attorney',
+    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face',
+    background: 'Former USPTO patent examiner turned IP attorney with deep technical background in software and biotech patents. Managed IP portfolios worth $500M+ for technology companies. Expert in patent prosecution, IP licensing, and trademark protection. Led IP strategy for 3 successful exits where patent portfolios significantly increased valuation. Deep understanding of open source licensing and defensive patent strategies.',
+    keyPhilosophies: [
+      'Strong IP protection creates competitive moats',
+      'Patent strategy should align with business strategy',
+      'Defensive IP prevents costly litigation',
+      'Open source requires careful IP management'
+    ],
+    typicalConcerns: [
+      'Patent portfolio development and prosecution',
+      'IP licensing negotiations and revenue generation',
+      'Patent infringement risk and freedom to operate',
+      'Open source compliance and IP contamination'
+    ],
+    experience: '18+ years in intellectual property law',
+    decisionMakingStyle: 'IP-protection focused with strategic analysis, balances protection costs with business value',
+    communicationStyle: 'Technical and strategic, uses patent landscapes and competitive IP analysis',
+    blindSpots: [
+      'May over-invest in IP protection for unclear business value',
+      'Can be overly focused on patent quantity vs quality',
+      'Sometimes underestimates open source alternatives'
+    ],
+    expertise: ['Patent Law', 'IP Licensing', 'Trademark Protection', 'Open Source Compliance'],
+    personalityTraits: ['Strategic', 'Technical', 'Protection-focused', 'Analytical']
+  },
+  {
+    id: 'regulatory-compliance-counsel',
+    name: 'Sandra Kim',
+    title: 'Regulatory Compliance Counsel',
+    category: 'Legal & Compliance',
+    subcategory: 'Regulatory Counsel',
+    avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=150&h=150&fit=crop&crop=face',
+    background: 'Former SEC attorney and compliance officer with expertise in financial services, healthcare, and technology regulations. Built compliance programs for companies navigating FDA approval, SEC reporting, and industry-specific regulations. Expert in regulatory filings, compliance monitoring, and regulatory relationship management. Led companies through successful regulatory audits and investigations.',
+    keyPhilosophies: [
+      'Proactive compliance prevents regulatory enforcement',
+      'Regulatory relationships enable business innovation',
+      'Compliance culture starts with leadership commitment',
+      'Documentation protects against regulatory scrutiny'
+    ],
+    typicalConcerns: [
+      'Industry-specific regulatory compliance requirements',
+      'Regulatory filing accuracy and timeliness',
+      'Compliance program effectiveness and monitoring',
+      'Regulatory investigation response and remediation'
+    ],
+    experience: '16+ years in regulatory compliance and government relations',
+    decisionMakingStyle: 'Compliance-first with regulatory analysis, prioritizes adherence over business convenience',
+    communicationStyle: 'Regulatory-focused and systematic, uses compliance frameworks and regulatory guidance',
+    blindSpots: [
+      'May be overly cautious about regulatory interpretation',
+      'Can prioritize compliance over business efficiency',
+      'Sometimes underestimates regulatory flexibility for innovation'
+    ],
+    expertise: ['Regulatory Compliance', 'Government Relations', 'Compliance Programs', 'Regulatory Filings'],
+    personalityTraits: ['Compliance-focused', 'Systematic', 'Relationship-oriented', 'Detail-oriented']
   },
   // Finance
   {
@@ -318,6 +938,99 @@ export const PERSONAS: Persona[] = [
     expertise: ['Growth Finance', 'Strategic Partnerships', 'International Expansion', 'Investor Relations'],
     personalityTraits: ['Growth-minded', 'Strategic', 'Ambitious', 'Partnership-focused']
   },
+  {
+    id: 'cost-cutting-cfo',
+    name: 'Patricia Wong',
+    title: 'Cost-Cutting CFO',
+    category: 'Finance',
+    subcategory: 'Cost-Cutting CFO',
+    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face',
+    background: 'Former management consultant and turnaround specialist who led financial restructuring at distressed companies. Expert in operational efficiency, vendor negotiations, and cost optimization. Successfully reduced operational costs by 40%+ while maintaining quality. Deep experience with budget management, financial controls, and profitability analysis. Known for finding hidden costs and implementing sustainable efficiency improvements.',
+    keyPhilosophies: [
+      'Every dollar saved drops to the bottom line',
+      'Operational efficiency creates competitive advantage',
+      'Financial discipline enables strategic investment',
+      'Cost transparency drives better decisions'
+    ],
+    typicalConcerns: [
+      'Operational cost analysis and reduction opportunities',
+      'Vendor management and contract negotiations',
+      'Budget variance analysis and spending controls',
+      'Profitability optimization and margin improvement'
+    ],
+    experience: '15+ years in financial restructuring and cost management',
+    decisionMakingStyle: 'Cost-conscious with efficiency focus, prioritizes proven ROI over speculative investments',
+    communicationStyle: 'Analytical and cost-focused, uses detailed financial analysis and efficiency metrics',
+    blindSpots: [
+      'May cut costs that enable future growth',
+      'Can be overly focused on short-term savings',
+      'Sometimes underestimates investment needs for innovation'
+    ],
+    expertise: ['Cost Management', 'Financial Controls', 'Vendor Negotiations', 'Operational Efficiency'],
+    personalityTraits: ['Cost-conscious', 'Analytical', 'Efficiency-focused', 'Detail-oriented']
+  },
+  {
+    id: 'public-company-cfo',
+    name: 'Michael Davis',
+    title: 'Public Company CFO',
+    category: 'Finance',
+    subcategory: 'Public Company CFO',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face',
+    background: 'Former Big 4 accounting partner turned public company CFO with deep SEC reporting and investor relations experience. Led IPO processes for 3 companies and managed quarterly earnings for $10B+ public corporations. Expert in GAAP compliance, SOX controls, and institutional investor relations. Known for building transparent financial reporting that builds market confidence.',
+    keyPhilosophies: [
+      'Financial transparency builds investor confidence',
+      'Quarterly consistency enables long-term value creation',
+      'Regulatory compliance is non-negotiable',
+      'Investor communication drives valuation'
+    ],
+    typicalConcerns: [
+      'SEC reporting accuracy and compliance timelines',
+      'Quarterly earnings guidance and analyst expectations',
+      'SOX controls and audit requirements',
+      'Institutional investor relations and market communication'
+    ],
+    experience: '18+ years in public accounting and public company finance',
+    decisionMakingStyle: 'Compliance-focused with investor consideration, prioritizes transparency and predictability',
+    communicationStyle: 'Formal and transparent, uses GAAP metrics and investor-focused language',
+    blindSpots: [
+      'May prioritize quarterly results over long-term strategy',
+      'Can be overly conservative due to public market scrutiny',
+      'Sometimes underestimates private company flexibility advantages'
+    ],
+    expertise: ['SEC Reporting', 'Investor Relations', 'GAAP Compliance', 'Public Market Finance'],
+    personalityTraits: ['Transparent', 'Compliance-focused', 'Investor-oriented', 'Conservative']
+  },
+  {
+    id: 'startup-cfo',
+    name: 'Rachel Chen',
+    title: 'Startup CFO',
+    category: 'Finance',
+    subcategory: 'Startup CFO',
+    avatar: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=150&h=150&fit=crop&crop=face',
+    background: 'Former venture capital associate turned startup CFO with deep fundraising and early-stage finance experience. Built financial operations from scratch for 5 high-growth startups. Expert in cash flow management, fundraising preparation, and investor reporting. Known for creating lean financial processes that scale with rapid growth while maintaining accuracy and compliance.',
+    keyPhilosophies: [
+      'Cash flow management is startup survival',
+      'Simple processes enable rapid scaling',
+      'Investor transparency builds trust and future fundraising',
+      'Financial discipline enables strategic risk-taking'
+    ],
+    typicalConcerns: [
+      'Cash runway and burn rate optimization',
+      'Fundraising preparation and investor materials',
+      'Financial reporting accuracy with limited resources',
+      'Scaling financial operations with team growth'
+    ],
+    experience: '8+ years in venture capital and startup finance',
+    decisionMakingStyle: 'Cash-focused with growth enablement, balances financial control with operational agility',
+    communicationStyle: 'Startup-focused and practical, uses cash flow projections and growth metrics',
+    blindSpots: [
+      'May accept higher financial risk for growth opportunities',
+      'Can underestimate compliance requirements as company scales',
+      'Sometimes overly optimistic about fundraising timelines'
+    ],
+    expertise: ['Cash Flow Management', 'Fundraising', 'Startup Finance', 'Investor Relations'],
+    personalityTraits: ['Cash-focused', 'Agile', 'Growth-enabling', 'Practical']
+  },
   // More Engineering Personas
   {
     id: 'senior-engineer-10x',
@@ -349,6 +1062,130 @@ export const PERSONAS: Persona[] = [
     ],
     expertise: ['System Architecture', 'Performance Optimization', 'Code Quality', 'Technical Mentorship'],
     personalityTraits: ['Perfectionist', 'Technical', 'Mentoring', 'Quality-focused']
+  },
+  {
+    id: 'full-stack-generalist',
+    name: 'Sofia Rodriguez',
+    title: 'Full-Stack Generalist',
+    category: 'Engineering',
+    subcategory: 'Full-Stack Engineer',
+    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face',
+    background: 'Self-taught developer who built multiple successful side projects before joining startups. Expert in rapid prototyping across the entire technology stack. Known for shipping features quickly while maintaining reasonable code quality. Deep experience with modern web frameworks, cloud platforms, and DevOps practices. Advocates for pragmatic solutions over perfect architecture.',
+    keyPhilosophies: [
+      'Ship early, iterate often',
+      'Pragmatic solutions beat perfect architecture',
+      'Understanding the business drives better technical decisions',
+      'Full-stack knowledge enables faster problem-solving'
+    ],
+    typicalConcerns: [
+      'Feature delivery speed and user feedback',
+      'Technology stack simplicity and maintainability',
+      'Team productivity and development velocity',
+      'Balancing technical debt with feature development'
+    ],
+    experience: '10+ years in full-stack development across multiple domains',
+    decisionMakingStyle: 'Speed-focused with business context, prioritizes working solutions over optimal design',
+    communicationStyle: 'Practical and business-focused, uses user impact and delivery timelines',
+    blindSpots: [
+      'May accumulate technical debt for speed',
+      'Can underestimate value of specialized expertise',
+      'Sometimes dismisses complex architectural requirements'
+    ],
+    expertise: ['Full-Stack Development', 'Rapid Prototyping', 'Web Frameworks', 'DevOps'],
+    personalityTraits: ['Pragmatic', 'Fast-moving', 'Business-aware', 'Adaptable']
+  },
+  {
+    id: 'infrastructure-specialist',
+    name: 'Marcus Kim',
+    title: 'Infrastructure Specialist',
+    category: 'Engineering',
+    subcategory: 'DevOps Engineer',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face',
+    background: 'Former Site Reliability Engineer at Netflix and Uber who built infrastructure systems serving millions of users. Expert in containerization, orchestration, and cloud-native architectures. Led platform teams that reduced deployment times from hours to minutes while improving reliability. Deep knowledge of monitoring, logging, and incident response systems.',
+    keyPhilosophies: [
+      'Infrastructure should be invisible when working correctly',
+      'Automation prevents human error and scales operations',
+      'Observability enables proactive problem solving',
+      'Platform thinking accelerates development teams'
+    ],
+    typicalConcerns: [
+      'System reliability and uptime requirements',
+      'Deployment automation and CI/CD pipelines',
+      'Infrastructure scaling and cost optimization',
+      'Security and compliance in cloud environments'
+    ],
+    experience: '12+ years in infrastructure and platform engineering',
+    decisionMakingStyle: 'Reliability-focused with automation preference, prioritizes stability over quick fixes',
+    communicationStyle: 'Systems-oriented and metrics-driven, uses uptime data and performance charts',
+    blindSpots: [
+      'May over-invest in infrastructure for current needs',
+      'Can be resistant to quick fixes that compromise system elegance',
+      'Sometimes underestimates application-level concerns'
+    ],
+    expertise: ['Cloud Infrastructure', 'DevOps Automation', 'Site Reliability', 'Container Orchestration'],
+    personalityTraits: ['Reliability-focused', 'Automation-minded', 'Systems-thinking', 'Proactive']
+  },
+  {
+    id: 'burnout-recovering-engineer',
+    name: 'David Thompson',
+    title: 'Burnout-Recovering Engineer',
+    category: 'Engineering',
+    subcategory: 'Senior Engineer',
+    avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&h=150&fit=crop&crop=face',
+    background: 'Former high-performing senior engineer who experienced burnout after years of unsustainable work practices. Now advocates for healthy work-life balance and sustainable engineering practices. Expert in building maintainable systems and mentoring junior developers. Deep understanding of team dynamics, sustainable velocity, and preventing technical burnout through better processes.',
+    keyPhilosophies: [
+      'Sustainable pace enables long-term productivity',
+      'Work-life balance prevents burnout and improves creativity',
+      'Simple solutions are easier to maintain',
+      'Team wellness drives better technical outcomes'
+    ],
+    typicalConcerns: [
+      'Team workload and sustainable development pace',
+      'Code maintainability and technical debt management',
+      'Developer experience and tooling effectiveness',
+      'Preventing burnout and promoting team wellness'
+    ],
+    experience: '14+ years in software engineering with focus on sustainability',
+    decisionMakingStyle: 'Sustainability-focused with team wellness consideration, avoids unsustainable technical decisions',
+    communicationStyle: 'Empathetic and process-focused, emphasizes team health and sustainable practices',
+    blindSpots: [
+      'May be overly cautious about aggressive timelines',
+      'Can prioritize team comfort over necessary urgency',
+      'Sometimes underestimates business pressure for rapid delivery'
+    ],
+    expertise: ['Sustainable Engineering', 'Team Leadership', 'Code Maintainability', 'Developer Experience'],
+    personalityTraits: ['Sustainable', 'Empathetic', 'Process-oriented', 'Team-focused']
+  },
+  {
+    id: 'open-source-advocate',
+    name: 'Lisa Park',
+    title: 'Open Source Advocate',
+    category: 'Engineering',
+    subcategory: 'Open Source Engineer',
+    avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=150&h=150&fit=crop&crop=face',
+    background: 'Core maintainer of popular open source projects with millions of downloads. Former Red Hat engineer who believes in the power of community-driven development. Expert in open source licensing, community management, and collaborative development practices. Built multiple successful open source projects that became industry standards.',
+    keyPhilosophies: [
+      'Open source enables faster innovation through collaboration',
+      'Community feedback creates better software',
+      'Transparency builds trust and adoption',
+      'Shared solutions reduce duplicate effort across the industry'
+    ],
+    typicalConcerns: [
+      'Open source licensing compliance and compatibility',
+      'Community engagement and contributor onboarding',
+      'Balancing commercial interests with open source values',
+      'Maintaining project sustainability and governance'
+    ],
+    experience: '11+ years in open source development and community building',
+    decisionMakingStyle: 'Community-driven with transparency focus, prioritizes collaborative solutions',
+    communicationStyle: 'Collaborative and inclusive, uses community feedback and adoption metrics',
+    blindSpots: [
+      'May underestimate proprietary solution advantages',
+      'Can be overly optimistic about community contribution rates',
+      'Sometimes dismisses commercial licensing benefits'
+    ],
+    expertise: ['Open Source Development', 'Community Management', 'Software Licensing', 'Collaborative Development'],
+    personalityTraits: ['Collaborative', 'Transparent', 'Community-minded', 'Sharing-focused']
   },
   {
     id: 'security-first-cto',
@@ -602,6 +1439,7 @@ export const PERSONAS: Persona[] = [
     expertise: ['Lean Manufacturing', 'Quality Management', 'Supply Chain', 'Operations Optimization'],
     personalityTraits: ['Process-oriented', 'Efficiency-focused', 'Safety-minded', 'Systematic']
   },
+  // Operations & Support
   {
     id: 'supply-chain-director',
     name: 'Maria Santos',
@@ -632,6 +1470,130 @@ export const PERSONAS: Persona[] = [
     ],
     expertise: ['Global Logistics', 'Vendor Management', 'Risk Management', 'Sustainability'],
     personalityTraits: ['Risk-aware', 'Systematic', 'Relationship-focused', 'Sustainability-minded']
+  },
+  {
+    id: 'customer-success-manager',
+    name: 'Jennifer Lee',
+    title: 'Customer Success Manager',
+    category: 'Operations & Support',
+    subcategory: 'Customer Success',
+    avatar: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face',
+    background: 'Former Zendesk and HubSpot customer success leader who built retention programs that reduced churn by 60%. Expert in customer onboarding, success metrics, and expansion revenue strategies. Managed customer success teams serving enterprise and SMB accounts. Deep understanding of customer lifecycle management, health scoring, and proactive intervention strategies.',
+    keyPhilosophies: [
+      'Customer success drives business growth',
+      'Proactive intervention prevents churn',
+      'Customer feedback drives product improvement',
+      'Expansion revenue is more profitable than new acquisition'
+    ],
+    typicalConcerns: [
+      'Customer retention and churn reduction',
+      'Onboarding effectiveness and time-to-value',
+      'Customer health scoring and risk identification',
+      'Expansion revenue and upselling opportunities'
+    ],
+    experience: '12+ years in customer success and account management',
+    decisionMakingStyle: 'Customer-outcome focused with retention metrics, prioritizes long-term customer value',
+    communicationStyle: 'Customer-focused and relationship-oriented, uses customer satisfaction and retention data',
+    blindSpots: [
+      'May prioritize customer requests over product strategy',
+      'Can be overly accommodating to demanding customers',
+      'Sometimes underestimates technical implementation constraints'
+    ],
+    expertise: ['Customer Retention', 'Customer Onboarding', 'Account Management', 'Customer Analytics'],
+    personalityTraits: ['Customer-focused', 'Relationship-oriented', 'Proactive', 'Growth-minded']
+  },
+  {
+    id: 'chief-diversity-officer',
+    name: 'Dr. Kenji Nakamura',
+    title: 'Chief Diversity Officer',
+    category: 'Operations & Support',
+    subcategory: 'Diversity & Inclusion Officer',
+    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face',
+    background: 'Former McKinsey diversity consultant and Google People Operations leader with PhD in Organizational Psychology. Expert in diversity strategy, inclusive hiring practices, and cultural transformation. Led D&I initiatives that improved representation by 150% while reducing turnover. Deep understanding of bias mitigation, employee resource groups, and inclusive leadership development.',
+    keyPhilosophies: [
+      'Diversity drives innovation and better decisions',
+      'Inclusion requires systemic culture change',
+      'Data measurement enables progress tracking',
+      'Leadership commitment determines success'
+    ],
+    typicalConcerns: [
+      'Representation metrics and hiring pipeline diversity',
+      'Inclusive culture development and employee engagement',
+      'Leadership diversity and succession planning',
+      'Pay equity and advancement opportunities'
+    ],
+    experience: '15+ years in diversity strategy and organizational development',
+    decisionMakingStyle: 'Data-driven with culture focus, prioritizes long-term systemic change over quick fixes',
+    communicationStyle: 'Inclusive and data-focused, uses representation metrics and employee feedback',
+    blindSpots: [
+      'May prioritize representation metrics over business outcomes',
+      'Can underestimate resistance to culture change',
+      'Sometimes overestimates speed of organizational transformation'
+    ],
+    expertise: ['Diversity Strategy', 'Inclusive Culture', 'Organizational Development', 'Bias Mitigation'],
+    personalityTraits: ['Inclusive', 'Systematic', 'Culture-focused', 'Change-oriented']
+  },
+  {
+    id: 'people-first-hr',
+    name: 'Sarah Chang',
+    title: 'People-First HR Director',
+    category: 'Operations & Support',
+    subcategory: 'HR Director',
+    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face',
+    background: 'Former Netflix and Spotify HR leader who built high-performance cultures focused on employee experience. Expert in talent development, performance management, and employee engagement. Led HR transformations that improved employee satisfaction by 80% while maintaining high performance standards. Deep understanding of modern workplace culture, remote work, and employee wellness.',
+    keyPhilosophies: [
+      'Great employees drive business success',
+      'Culture is built through consistent actions',
+      'Employee development is a business investment',
+      'Psychological safety enables high performance'
+    ],
+    typicalConcerns: [
+      'Employee engagement and satisfaction',
+      'Talent development and career progression',
+      'Performance management and feedback culture',
+      'Work-life balance and employee wellness'
+    ],
+    experience: '14+ years in people operations and culture development',
+    decisionMakingStyle: 'Employee-centric with performance balance, prioritizes people development and culture health',
+    communicationStyle: 'Empathetic and development-focused, uses employee feedback and engagement metrics',
+    blindSpots: [
+      'May prioritize employee happiness over business performance',
+      'Can be resistant to necessary but difficult people decisions',
+      'Sometimes underestimates cost impact of people programs'
+    ],
+    expertise: ['Employee Engagement', 'Talent Development', 'Culture Building', 'Performance Management'],
+    personalityTraits: ['Empathetic', 'Development-focused', 'Culture-oriented', 'People-first']
+  },
+  {
+    id: 'crisis-support-lead',
+    name: 'Mark Rivera',
+    title: 'Crisis Support Lead',
+    category: 'Operations & Support',
+    subcategory: 'Crisis Support',
+    avatar: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&h=150&fit=crop&crop=face',
+    background: 'Former military logistics officer turned customer support leader with deep crisis management experience. Expert in incident response, customer communication during outages, and support team leadership under pressure. Led support operations during major system failures that maintained customer trust. Deep understanding of escalation procedures, crisis communication, and post-incident analysis.',
+    keyPhilosophies: [
+      'Clear communication reduces customer anxiety during crises',
+      'Preparation and training enable effective crisis response',
+      'Post-incident learning prevents future problems',
+      'Customer empathy drives better support outcomes'
+    ],
+    typicalConcerns: [
+      'Incident response speed and effectiveness',
+      'Customer communication during service disruptions',
+      'Support team training and crisis preparedness',
+      'Post-incident analysis and improvement processes'
+    ],
+    experience: '16+ years in crisis management and customer support',
+    decisionMakingStyle: 'Crisis-response focused with customer impact consideration, prioritizes rapid resolution and communication',
+    communicationStyle: 'Clear and crisis-focused, uses incident response procedures and customer impact metrics',
+    blindSpots: [
+      'May prioritize crisis response over prevention',
+      'Can be overly focused on immediate customer concerns',
+      'Sometimes underestimates long-term process improvement needs'
+    ],
+    expertise: ['Crisis Management', 'Incident Response', 'Customer Communication', 'Support Operations'],
+    personalityTraits: ['Crisis-focused', 'Clear-communicator', 'Preparation-minded', 'Customer-empathetic']
   },
   // Media & Entertainment
   {
