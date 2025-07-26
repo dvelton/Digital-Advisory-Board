@@ -2,6 +2,10 @@
 
 This is a customizable chat application comprising a panel of experts. Users can assemble advisory panels from a collection of 60+ persona archetypes, each representing real-world roles across leadership, technology, design, business, law, finance, and more.
 
+## Dashboard View
+
+!
+
 ## Key Features
 
 - **Expert Persona Library**: Choose from over 60 detailed persona archetypes, including:
