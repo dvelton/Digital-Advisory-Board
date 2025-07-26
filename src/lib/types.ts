@@ -95,21 +95,42 @@ export const PERSONA_CATEGORIES = {
     'Public Company CFO',
     'Cost-Cutting CFO',
     'Growth CFO',
-    'Risk Management CFO'
+    'Risk Management CFO',
+    'Investment Banking MD'
   ],
   'Operations & Support': [
     'Customer Success Manager',
     'Scalability-Focused Ops',
     'Crisis Support Lead',
     'People-First HR',
-    'Compliance-Heavy HR'
+    'Compliance-Heavy HR',
+    'Supply Chain Director',
+    'Diversity & Inclusion Officer'
+  ],
+  'Industry Leaders': [
+    'Healthcare CEO',
+    'Biotech Research Director',
+    'Retail CEO',
+    'FinTech CEO',
+    'Manufacturing COO',
+    'Media CEO',
+    'Gaming CEO',
+    'EdTech CEO',
+    'GovTech Director',
+    'PropTech CEO',
+    'AgTech CEO',
+    'Transportation CEO',
+    'CleanTech CEO',
+    'Aerospace CEO'
   ],
   'Specialized': [
     'Cybersecurity Expert',
     'Data Privacy Officer',
     'Marketing Growth Hacker',
     'Sales Development Expert',
-    'International Expansion Specialist'
+    'International Expansion Specialist',
+    'Sustainability Officer',
+    'Crisis Communications'
   ]
 } as const;
 
