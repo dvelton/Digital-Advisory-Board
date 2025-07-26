@@ -4,7 +4,7 @@ This is a customizable chat application comprising a panel of experts. Users can
 
 ## Dashboard View
 
-!
+![Screenshot](./dashboard.png)
 
 ## Key Features
 
