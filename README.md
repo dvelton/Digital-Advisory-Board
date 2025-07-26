@@ -8,7 +8,7 @@ This is a customizable chat application comprising a panel of experts. Users can
 
 ## Key Features
 
-- **Expert Persona Library**: Choose from over 60 detailed persona archetypes, including:
+- **Expert Persona Library**: Choose from detailed persona archetypes, including:
   - C-suite executives (CEO, CTO, CMO, CFO, CLO, etc.)
   - Engineering & product leaders
   - Legal & compliance advisors
